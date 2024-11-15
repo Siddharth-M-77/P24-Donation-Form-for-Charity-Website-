@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donation Form</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen bg-[url('https://plus.unsplash.com/premium_photo-1683134059041-3604e05950e4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-top ">
+  <div class="bg-white bg-opacity-30 shadow-lg rounded-lg p-8 w-full max-w-lg">
+    <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Donate to Our Charity</h2>
+    <form action="#" method="post">
+      <div class="mb-4">
+        <label for="name" class="block text-gray-800 text-sm font-semibold  mb-2">Full Name</label>
+        <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-indigo-200" placeholder="Your Name">
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block text-gray-800 text-sm font-semibold mb-2">Email Address</label>
+        <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-indigo-200" placeholder="Your Email">
+      </div>
+      <div class="mb-4">
+        <label for="amount" class="block text-gray-800 text-sm font-semibold mb-2">Donation Amount</label>
+        <input type="number" id="amount" name="amount" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-indigo-200" placeholder="Enter Amount">
+      </div>
+      <div class="mb-6">
+        <button type="submit" class="w-full bg-indigo-600 text-white py-2 px-4 rounded-lg hover:bg-indigo-700 transition duration-300">Donate Now</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
